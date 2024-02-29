@@ -52,7 +52,7 @@ def chaos01Test(data,c=np.pi/2,ncut=152,fs = 1526):
     return Kc[1]
 
 def estimateChaos(data,pltFlag = 0):
-    carray = np.arange(0.01,2*np.pi,0.01)
+    carray = np.arange(0.1,2*np.pi,0.1)
     Kest = np.zeros(len(carray),)
     for ck in range(len(carray)):
         Kest[ck] = chaos01Test(data,c=carray[ck])
