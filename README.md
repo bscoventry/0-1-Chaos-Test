@@ -1,2 +1,4 @@
-# 0-1-Chaos-Test
-Python Code for 0-1 test for Chaos
+# 0-1 Test for Chaos 
+
+This implements the 0-1 test for Chaos.
+
